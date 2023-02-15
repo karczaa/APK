@@ -1,7 +1,7 @@
 /*  kolory na chwile */
 body
 {
-    background-color: #918c8c;
+    background-color: #f7f4f4;
     
     margin: 0 !important;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -9,7 +9,7 @@ body
 
 #logo 
 {
-    background-color: #c02525;
+    
     text-align: center;
     font-weight: 700;
     font-size: 32px;
@@ -24,17 +24,14 @@ body
 
 #nav 
 {
-    background-color: rgb(226, 202, 62);
+    background-color: rgb(17, 15, 1);
     width: auto;
     height: 50px;
     font-size: 22px;
     line-height: 50px;
     text-align:center;
-    align-items: center;
-
-
-    
 }
+
 ol 
 {
     list-style-type: none;
@@ -73,11 +70,23 @@ a
 
 #content 
 {
-    background-color: rgb(101, 192, 235);
-    padding: 10px;
-    color:darkred;
-    
-    
+    background-color: #1a1818;
+    padding: 0;
+    color:rgb(247, 241, 241);
+    text-justify: auto;
+   
+}
+
+#alfa-img 
+{
+    background-image: url("img/alfa");
+    background-size: auto auto;
+    background-size: cover;  
+}
+
+h1 
+{
+    text-align: center;
 }
 
 #footer 
@@ -90,7 +99,7 @@ a
 
 #container
 {
-    width: 100%;
+    width: auto;
     margin-left:auto;
     margin-right:auto;
 }
