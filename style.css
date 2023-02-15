@@ -4,7 +4,7 @@ body
     background-color: #f7f4f4;
     
     margin: 0 !important;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: system-ui,Verdana, Geneva, Tahoma, sans-serif;
 }
 
 #logo 
@@ -50,6 +50,8 @@ li
     display: block;
     width: 150px;
     border-right: 1px solid #404040;
+    border-left: 1px solid #404040;
+    border-radius: 20px;
 }
 
 li:hover
@@ -70,19 +72,26 @@ a
 
 #content 
 {
-    background-color: #1a1818;
-    padding: 0;
+    height: 600px;
+    width: auto;
+    background-color: #f7f1f1;
+    padding-top: 100px;
+    padding-bottom: 100px;
     color:rgb(247, 241, 241);
     text-justify: auto;
+    /*to wszystko pozycja obrazka na zmieniajacej sie stronie*/
+    background-image: url("img/audiHD.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    /*sposob na przyciemnienie obrazka, jesli napis nieczytelny, pod warunkiem odpowiedniego background-color pod background*/
+    background-blend-mode: multiply; 
    
 }
 
-#alfa-img 
-{
-    background-image: url("img/alfa");
-    background-size: auto auto;
-    background-size: cover;  
-}
+
+    
 
 h1 
 {
@@ -91,15 +100,25 @@ h1
 
 #footer 
 {
-    background-color: rgb(62, 73, 73);
+    
     color: black;
-    padding: 10px;
+    padding: 50px;
     text-align:center;
 }
 
-#container
+#description 
 {
+    padding: 10px;
+    font-size: 32px;
+    float:left;
     width: auto;
-    margin-left:auto;
-    margin-right:auto;
-}
+    height: 50%;
+    text-align: center;
+    /*ramka(border)*/
+    border: 2px solid rgb(243, 237, 237);
+    border-radius: 20px;
+    /*kolor w srodku ramki + opacity(przezroczystosc)*/
+    background-color: rgba(4, 39, 63, 0.3)
+}    
+    
+    
