@@ -24,19 +24,25 @@ body
 {
     background-color: rgb(17, 15, 1);
     width: auto;
-    height: 50px;
-    font-size: 22px;
+    height: auto;
+    font-size: 20px;
     line-height: 50px;
     text-align:center;
+    margin: 0;
+    
+    
+    
+    
 }
 
 ol 
 {
     list-style-type: none;
     display: inline-block;
-    padding: 0;
     margin: 0;
+    padding: 0;
     width:auto;
+    
     
     
 }
@@ -123,26 +129,31 @@ h1
 
 .verkauf 
 {
+    display: block;
     margin-left: auto;
     margin-right: auto;
     margin-top: 10px;
-    width: 90%;
+    width: auto;
+    max-width: 1000px;
     height: auto;
     border: 2px solid rgb(255, 9, 9);
-    padding: 10px;
+    padding: 20px;
     
     
 }
 
 .ad 
 {
+    
+    
     float:left;
-    width: 450px;
-    height: 450px;
+    height: 240px;
+    width: 320px;
     text-align: center;
     background-color: rgb(255, 255, 255);
     border: 1px solid black;
-   
+    margin: 5px;
+    
    
     
     
